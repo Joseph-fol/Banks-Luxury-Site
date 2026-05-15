@@ -4,7 +4,7 @@ const CardProps = ({image, title, description, reverse = false }) => {
     return (
         <>
             <div className="bg-base-200 min-h-screen py-10 lg:py-20 w-full overflow-hidden">
-                <div className={`flex flex-col ${reverse ? 'md:flex-row-reverse' : 'md:flex-row'} gap-10 lg:gap-20 items-center`}>
+                <div className={`flex flex-col ${reverse ? 'md:flex-row-reverse' : 'md:flex-row'} gap-10 lg:gap-20`}>
                     <div className="w-full md:flex-1 flex justify-start">
                         {image}
                     </div>

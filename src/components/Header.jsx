@@ -20,13 +20,18 @@ const Header = () => {
 
             <div className='flex items-center justify-center relative z-20 -mt-20 lg:-mt-14'>
                 <div className='w-full max-w-6xl bg-[#ffeee9] px-6 md:px-10 mx-auto py-10'>
-                    <div className='mb-5'>
-                        <p className='text-2xl text-[#f04d22]'>Quick Search</p>
+                    <div className='mb-5 flex items-center gap-1 jusfitify-start'>
+                        <p className='text-2xl text-[#f04d22]'>Quick Search </p>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path fill="#f04d22" d="M11 15H6l7-14v8h5l-7 14z" />
+                        </svg>
                     </div>
 
                     <div className='flex gap-5 flex-col md:flex-row flex-wrap items-start md:items-center'>
                         <div className='w-full md:flex-1 min-w-0'>
-                            <label htmlFor="setLocation" className='font-normal'>Set Location</label><br /> 
+                            <label htmlFor="setLocation" className='font-normal'>Set Location</label><br />
                             <select name="" id="" className='w-full bg-white p-4 my-2 min-w-0'>
                                 <option value="Lekki">Lekki</option>
                                 <option value="Ikoyi">Ikoyi</option>
@@ -37,12 +42,12 @@ const Header = () => {
                         <div className='flex w-full md:flex-2 gap-5 min-w-0'>
                             <div className='flex-1 min-w-0'>
                                 <label htmlFor="checkIn" className='font-normal'>Check-in Date</label><br />
-                                <input type="date" id="checkIn" className='w-full bg-white p-4 my-2 min-w-0'/>
+                                <input type="date" id="checkIn" className='w-full bg-white p-4 my-2 min-w-0' />
                             </div>
-    
+
                             <div className='flex-1 min-w-0'>
                                 <label htmlFor="checkOut" className='font-normal'>Check-out Date</label><br />
-                                <input type="date" id="checkOut" className='w-full bg-white p-4 my-2 min-w-0'/>
+                                <input type="date" id="checkOut" className='w-full bg-white p-4 my-2 min-w-0' />
                             </div>
                         </div>
 
