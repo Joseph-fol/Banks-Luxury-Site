@@ -6,7 +6,7 @@ import { get } from 'flowbite-react/helpers/get';
 const NavbarHead = () => {
     return (
         <>
-            <Navbar className='py-8 bg-white!' >
+            <Navbar className='py-10 bg-white!' >
                 <NavbarBrand href="">
                     <img src="https://banksluxuryapartments.com/assets/banksomelogo.d3934e74.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
                 </NavbarBrand>

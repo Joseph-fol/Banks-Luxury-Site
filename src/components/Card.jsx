@@ -7,9 +7,7 @@ const Card = () => {
             <CardProps
 
                 image={<img src="https://banksluxuryapartments.com/assets/room-with-comfortable-couch.55acbd7a.webp" className="w-full h-auto object-cover rounded-none" alt="Comfortable couch room" />}
-
                 title="Enjoy the luxury experience at any of our locations"
-
                 description={`Banks L.A. exclusively manages the best handpicked and home-grown holiday apartments across several destinations (and counting). Just 1 in 10 properties that apply make the Banks L.A. list. If they are not beautifully furnished, filled with character and in a great location, you will not find them here.
 
                             Provisioned to five-star standards by your very own concierge, with all the extra touches, you are assured of more than just a home stay. Whether you stay for 2 nights or 2 weeks, Banks L.A. service is designed to make short stays more than just a holiday.`}
