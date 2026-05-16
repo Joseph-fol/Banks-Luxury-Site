@@ -31,7 +31,7 @@ const Header = () => {
 
                     <div className='flex gap-5 flex-col md:flex-row flex-wrap items-start md:items-center'>
                         <div className='w-full md:flex-1 min-w-0'>
-                            <label htmlFor="setLocation" className='font-normal'>Set Location</label><br />
+                            <label htmlFor="setLocation" className='font-normal'>Select Location</label><br />
                             <select name="" id="" className='w-full bg-white p-4 my-2 min-w-0'>
                                 <option value="Lekki">Lekki</option>
                                 <option value="Ikoyi">Ikoyi</option>
