@@ -8,7 +8,7 @@ const NavbarHead = () => {
         <>
             <Navbar className='py-10 bg-white!' >
                 <NavbarBrand href="">
-                    <img src="https://banksluxuryapartments.com/assets/banksomelogo.d3934e74.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
+                    <img src="https://banksluxuryapartments.com/assets/banksomelogo.d3934e74.svg" className="mr-3 h-6 sm:h-9" alt="Bank Luxury Logo" />
                 </NavbarBrand>
 
                 <div className="flex md:order-2 gap-3">
@@ -16,6 +16,7 @@ const NavbarHead = () => {
                     <Button className='bg-white! text-black border border-black! font-light text-[16px] rounded-none! focus:ring-0 focus:outline-none! hover:text-[#f04d22] hover:border-[#f04d22]! px-8 py-4'>Sign Up</Button>
                     <NavbarToggle />
                 </div>
+
                 <NavbarCollapse className='gap-10'>
                     <NavbarLink href="#" active className='text-[16px] text-[#f04d22]! font-light'>
                         Home

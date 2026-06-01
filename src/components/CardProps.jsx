@@ -5,7 +5,7 @@ const CardProps = ({image, title, description, reverse = false }) => {
         <>
             <div className="bg-base-200 min-h-screen py-10 lg:py-20 w-full overflow-hidden">
                 <div className={`flex flex-col ${reverse ? 'md:flex-row-reverse' : 'md:flex-row'} gap-10 lg:gap-20`}>
-                    <div className="w-full md:flex-1 flex justify-start">
+                    <div className="w-full md:flex-1 flex justify-start hover:-translate-x-6 translate-y-6 duration-100 delay-100">
                         {image}
                     </div>
 
@@ -13,8 +13,8 @@ const CardProps = ({image, title, description, reverse = false }) => {
                         <h1 className="card-title text-3xl w-full max-w-lg"> {title} </h1>
                         <p className='w-full max-w-lg my-5 font-light leading-relaxed text-sm'> {description} </p>
                         <div className='flex mt-10 justify-start'>
-                            <button className="bg-[#f04d22] border border-[#f04d22] py-4 px-7 text-white"> About Us</button>
-                            <button className='border py-4 px-2 border-[#f04d22]'><svg xmlns="http://www.w3.org/2000/svg" width="1.4em" height="1.4em" viewBox="0 0 24 24">
+                            <button className="bg-[#f04d22] border border-[#f04d22] py-4 px-7 text-white hover:skew-x-6"> About Us</button>
+                            <button className='border py-4 px-2 border-[#f04d22]'><svg xmlns="http://www.w3.org/2000/svg" className="animate-bounce" width="1.4em" height="1.4em" viewBox="0 0 24 24">
                                 <path d="M0 0h24v24H0z" fill="none" />
                                 <path fill="#f04d22" d="M4 11v2h12l-5.5 5.5l1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5L16 11z" />
                             </svg>
